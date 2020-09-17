@@ -1,0 +1,44 @@
+/*--Front-Page-Of-Luddo-Game--*/
+body{
+  background-image:url(Images/1.jpg);
+}
+.container{
+  background-color: #e5eff5;
+  margin: 100px 0 0 0;
+  border-radius: 20px;
+   box-shadow: 5px 8px 5px 8px grey ;
+}
+.image1{
+  width: 100%;
+}
+.link-next-page {
+ text-decoration: none  !important;
+ color: black;
+}
+.link-next-page:hover {
+  color: #fff;
+}
+.social-link{
+  color: black;
+  margin: 5px 0 5px 0;
+  position: relative;
+  left: 400px;
+}
+.play{
+  margin: 10px 0 20px 20px;
+}
+h1{
+  margin: 100px 0 0 20px;
+  width: 50px;
+}
+p{
+  margin: 20px 0 0 20px;
+  width: 300px;
+}
+@media screen and (max-width: 768px){
+  .social-link{
+    position: relative;
+    left: 200px;
+  }
+}
+/*--End-Of-Front-Page-Of-Luddo-Game--*/

@@ -1,0 +1,66 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing:border-box;
+}
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.green {
+    background-color: #66bb6a;
+}
+.red {
+    background-color: #e53935;
+    border: none;
+}
+.yellow {
+    background-color: #fff176;
+    border: none;
+}
+.blue {
+    background-color: #29b6f6;
+    border: none;
+}
+
+.house {
+    display: inline-block;
+    position: absolute;
+    width:40%;
+    height:40%;
+    padding:7%;
+}
+.box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+.square{
+  position: absolute;
+  width:25%;
+  height: 25%;
+}
+.square-one{
+  top: 20%;
+  left: 20%;
+}
+.square-two{
+  top:20%;
+  right: 20%;
+}
+.square-three{
+  bottom: 20%;
+  left: 20%;
+}
+.square-four{
+  bottom: 20%;
+  right: 20%;
+}
