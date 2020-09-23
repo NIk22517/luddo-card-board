@@ -172,18 +172,18 @@
   }
   .dice-box-red {
     bottom: 70px;
-    left: 60px;
+    left: 30px;
   }
   .dice-box-green {
     bottom: 490px;
-    left: 60px;
+    left: 30px;
   }
   .dice-box-yellow {
     bottom: 650px;
-    left: 300px;
+    left: 250px;
   }
   .dice-box-blue {
     bottom: 230px;
-    left: 300px;
+    left: 250px;
   }
 }
